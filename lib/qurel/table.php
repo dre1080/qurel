@@ -65,7 +65,7 @@ class Table implements \ArrayAccess
      * @param  mixed $relation
      * @return SelectManager
      */
-    public function join($relation, $klass = \Arel\Nodes\InnerJoin)
+    public function join($relation, $klass = \Qurel\Nodes\InnerJoin)
     {
         return $this->from($this)->join($relation, $klass);
     }
