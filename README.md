@@ -1,7 +1,5 @@
 # Qurel
 
-* https://bitbucket.org/heyinspire/qurel
-
 ## Overview
 
 Qurel is a SQL AST manager for PHP inspired by Rails' Arel.
